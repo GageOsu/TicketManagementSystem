@@ -12,10 +12,15 @@
     </ItemGroup>
     
     <ItemGroup>
-        <PackageVersion Include="Microsoft.EntityFrameworkCore"/>
-        <PackageVersion Include="Microsoft.EntityFrameworkCore.Design"/>
-        <PackageVersion Include="Microsoft.EntityFrameworkCore.Tools"/>
-        <PackageVersion Include="Npgsql.EntityFrameworkCore.PostgreSQL"/>
+        <PackageReference Include="Microsoft.EntityFrameworkCore" />
+        <PackageReference Include="Microsoft.EntityFrameworkCore.Design" />
+        <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" />
+        <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" />
     </ItemGroup>
-
+    
+    <ItemGroup>
+      <Folder Include="Positions\" />
+      <Folder Include="Statuses\" />
+      <Folder Include="Users\" />
+    </ItemGroup>
 </Project>
