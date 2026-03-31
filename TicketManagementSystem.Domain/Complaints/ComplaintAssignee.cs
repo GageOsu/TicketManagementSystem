@@ -6,6 +6,8 @@ public class ComplaintAssignee
     public Guid UserId { get; private set; }
 
     public DateTime AcceptedDate { get; private set; }
+    
+    public Complaint Complaint { get; private set; }
 
     public ComplaintAssignee(Guid complaintId, Guid userId)
     {
