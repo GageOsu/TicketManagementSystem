@@ -14,6 +14,8 @@
 
 ## Backend ASP.NET, PostgreSQL, Clean Architecture, Microservice
 - [x] Сделать базовую ER Диаграмму
+<img width="978" height="548" alt="Диаграма" src="https://github.com/user-attachments/assets/4aff3e2f-fa74-4ea2-a112-bbdd10ff9ce3" />
+
 - [ ] Сделать API Документацию
 - [ ] сделать миграцию БД
 
